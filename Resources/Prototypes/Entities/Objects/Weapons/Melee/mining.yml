@@ -22,6 +22,12 @@
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher.rsi
     state: icon
+  - type: Clothing
+    quickEquip: false
+    sprite: /Objects/Weapons/Melee/crusher.rsi
+    slots:
+    - Back
+    - suitStorage
   - type: AmmoCounter
   - type: UseDelayOnShoot
   - type: UseDelay
@@ -94,6 +100,12 @@
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_glaive.rsi
+  - type: Clothing
+    quickEquip: false
+    sprite: /Objects/Weapons/Melee/crusher_glaive.rsi
+    slots:
+    - Back
+    - suitStorage
   - type: UseDelay
     delay: 1.9
   - type: LeechOnMarker
